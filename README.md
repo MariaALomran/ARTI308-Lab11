@@ -97,6 +97,10 @@ The best number of clusters was selected using:
 
 - Elbow Method
 - Silhouette Score
+- The selected number of clusters was:
+
+```text
+K = 3
 
   
 ### Step 6:  Cluster Visualization
@@ -109,7 +113,6 @@ Low-activity customers
 High-value customers
 Cash-advance-focused customers
 These segments can help businesses improve targeted marketing and customer retention strategies.
-
 
 ```text
 K = 3
