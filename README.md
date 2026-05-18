@@ -98,7 +98,18 @@ The best number of clusters was selected using:
 - Elbow Method
 - Silhouette Score
 
-The selected number of clusters was:
+  
+### Step 6:  Cluster Visualization
+PCA was used to reduce dimensions for visualization.
+
+Result show that :
+The model grouped customers into 3 main segments:
+
+Low-activity customers
+High-value customers
+Cash-advance-focused customers
+These segments can help businesses improve targeted marketing and customer retention strategies.
+
 
 ```text
 K = 3
