@@ -1,17 +1,17 @@
-# ARTI308-Lab11
+# ARTI308-Lab11  
 # Credit Card Customer Segmentation
 
 ## About the Project
 
-This project uses machine learning to group credit card customers into different segments based on their financial behavior. The main goal is to understand customer patterns and help businesses create better marketing and customer retention strategies.
+This project uses machine learning to group credit card customers into different segments based on their financial behavior. The main goal is to understand customer patterns and help businesses improve their marketing strategies and customer retention.
 
-The project applies **K-Means Clustering**, an unsupervised learning algorithm, to divide customers into meaningful groups.
+The project applies **K-Means Clustering**, which is an unsupervised machine learning algorithm used to divide customers into meaningful groups.
 
 ---
 
 ## Project Goal
 
-The goal of this project is to:
+The main goals of this project are to:
 
 - Analyze customer financial behavior
 - Group similar customers together
@@ -22,11 +22,11 @@ The goal of this project is to:
 
 ## Dataset Description
 
-The dataset includes credit card customer information related to spending, payments, and account activity.
+The dataset contains credit card customer information related to spending, payments, and account activity.
 
 ### Main Features
 
-Some of the important columns used in the project are:
+Some of the important features in the dataset are:
 
 - Balance
 - Purchases
@@ -46,7 +46,7 @@ Some of the important columns used in the project are:
 
 ## Tools and Libraries
 
-The following tools and libraries were used:
+The following tools and libraries were used in this project:
 
 | Tool / Library | Purpose |
 |---|---|
@@ -70,7 +70,7 @@ The dataset was imported using Pandas to begin the analysis.
 The data was prepared by:
 
 - Removing the `CUST_ID` column
-- Checking missing values
+- Checking for missing values
 - Filling missing values using the mean
 
 ### Step 3: Explore the Data
@@ -91,28 +91,14 @@ Since clustering is affected by feature values, the data was normalized using **
 
 ### Step 5: Apply K-Means Clustering
 
-K-Means clustering was used to group customers.
+K-Means clustering was used to group customers into different segments.
 
 The best number of clusters was selected using:
 
 - Elbow Method
 - Silhouette Score
-- The selected number of clusters was:
 
-```text
-K = 3
-
-  
-### Step 6:  Cluster Visualization
-PCA was used to reduce dimensions for visualization.
-
-Result show that :
-The model grouped customers into 3 main segments:
-
-Low-activity customers
-High-value customers
-Cash-advance-focused customers
-These segments can help businesses improve targeted marketing and customer retention strategies.
+The selected number of clusters was:
 
 ```text
 K = 3
