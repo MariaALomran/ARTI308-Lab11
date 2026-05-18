@@ -63,7 +63,7 @@ The following tools and libraries were used in this project:
 
 ### Step 1: Load the Data
 
-The dataset was imported using Pandas to begin the analysis.
+The dataset was loaded using **Pandas** to begin the analysis.
 
 ### Step 2: Clean the Data
 
@@ -87,11 +87,11 @@ This included:
 
 ### Step 4: Scale the Features
 
-Since clustering is affected by feature values, the data was normalized using **StandardScaler**.
+Since clustering is affected by feature values, the data was normalized using **StandardScaler**. This step helps ensure that all features contribute equally to the clustering process.
 
 ### Step 5: Apply K-Means Clustering
 
-K-Means clustering was used to group customers into different segments.
+K-Means clustering was used to group customers into different segments based on their financial behavior.
 
 The best number of clusters was selected using:
 
