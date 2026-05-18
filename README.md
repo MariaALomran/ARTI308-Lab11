@@ -97,8 +97,32 @@ The best number of clusters was selected using:
 
 - Elbow Method
 - Silhouette Score
-
 The selected number of clusters was:
 
 ```text
 K = 3
+```
+
+### Step 6: Cluster Visualization
+
+After applying K-Means clustering, PCA was used to reduce the dataset dimensions into two components. This made it easier to visualize the customer clusters in a clear and simple way.
+
+The visualization shows how customers are grouped based on similar financial behavior, which helps in understanding the differences between the customer segments.
+
+---
+
+## Results
+
+The model grouped customers into three main segments:
+
+1. Low-activity customers
+2. High-value customers
+3. Cash-advance-focused customers
+
+These segments can help businesses improve targeted marketing, customer management, and customer retention strategies.
+
+---
+
+## Conclusion
+
+This project demonstrates how K-Means clustering can be used to segment credit card customers based on their financial behavior. The results provide useful insights that can help businesses better understand their customers and make more effective marketing decisions.
